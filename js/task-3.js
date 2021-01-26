@@ -15,9 +15,8 @@ const images = [
       alt: 'Group of Horses Running',
     },
   ];
- 
-const createList = images.map(image =>{   
-    const listRef = document.querySelector('ul#gallery'); 
+const listRef = document.querySelector('ul#gallery'); 
+const createList = images.map(image =>{     
     const itemRef = document.createElement('li');
     itemRef.classList.add('js-image-item');
     itemRef.style.background = 'orange';    
